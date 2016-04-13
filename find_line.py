@@ -24,7 +24,6 @@ def main():
 
         # Calculate the slope in fractional form
         slope = try_get_slope(x1, y1, x2, y2)
-        print slope
         slope_d = slope.denominator
         slope_n = slope.numerator
 
